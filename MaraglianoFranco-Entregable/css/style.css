@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+body:hover {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* --------------------------------------------------- */
+/* Catalogo */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* --------------------------------------------------- */
+/* Soporte */
+.contact-section {
+  padding: 60px 0;
+}
+
+.contact-section h2 {
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info i {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.contact-info p {
+  margin-left: 10px;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-primary {
+  border-radius: 0;
+}
+
+/* --------------------------------------------------- */
+/* Sobre nosotros */
+.about-section {
+  padding: 60px 0;
+}
+
+.about-section h2 {
+  margin-bottom: 40px;
+}
+
+.about-img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.team-member {
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-bottom: 15px;
+}
+
+.team-member h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

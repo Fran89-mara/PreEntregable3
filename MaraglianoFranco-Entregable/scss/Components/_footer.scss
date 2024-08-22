@@ -1,0 +1,23 @@
+
+/* Navbar y footer */
+
+.navbar-custom {
+    background-color: #007bff;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+
+    .footer p {
+        margin: 0;
+    }
+
+}
